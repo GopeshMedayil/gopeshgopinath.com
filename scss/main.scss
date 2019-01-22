@@ -1,4 +1,34 @@
-@import '_config';
+//
+$primary-color:#444;
+$secondary-color:#eeec1a;
+$show-home-image :true;
+$home-image:url('/dist/img/background.jpg');
+$background-opacity:0.9;
+
+@mixin easeOut {
+    transition: all 0.5s ease-out;
+}
+
+@mixin background{
+    @if $show-home-image {
+        &#bg-img{
+            background:$home-image;
+            background-attachment: fixed;
+            background-size: cover;
+            &:after{
+                content:'';
+                position: absolute;
+                top:0;
+                right:0;
+                width:100%;
+                height:100%;
+                z-index:-1;
+                background:rgba($primary-color,$background-opacity);
+            }
+        }
+    }
+
+}
 @import '_menu';
 
 *{
@@ -13,12 +43,13 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     color:#fff;
+    font-size:14px;
 }
 h1,h2,h3{
     margin:0;
     font-weight:400;
     &.lg-heading{
-        font-size: 6rem;
+        font-size: 3rem;
     }
     &.sm-heading{
         margin-bottom:2rem;
