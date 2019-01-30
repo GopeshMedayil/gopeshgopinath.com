@@ -115,7 +115,7 @@
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 300;
-  color: set-text-color(#444);
+  color: #fff;
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
@@ -245,7 +245,7 @@ header {
 
 main {
   padding: 4rem;
-  width: 100%;
+  min-height: calc(100vh-60px);
 }
 
 main .icons {
@@ -270,4 +270,46 @@ main#home {
 
 main#home h1 {
   margin-top: 10vh;
+}
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.about-info .bio-image {
+  width: 15rem;
+  grid-area: bioimage;
+  margin: auto;
+  border-radius: 50%;
+  border: #eeec1a 3px solid;
+}
+
+.about-info .bio {
+  grid-area: bio;
+  font-size: 1.5rem;
+}
+
+.about-info .job-1 {
+  grid-area: job1;
+}
+
+.about-info .job-2 {
+  grid-area: job2;
+}
+
+.about-info .job {
+  background: #515151;
+  padding: 0.5rem;
+  border-bottom: #eeec1a 5px solid;
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2b2b2b;
+  color: #fff;
+  height: 60px;
 }

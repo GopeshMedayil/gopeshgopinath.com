@@ -8,6 +8,14 @@ $background-opacity:0.9;
 @mixin easeOut {
     transition: all 0.5s ease-out;
 }
+// Set Text Color
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+      @return #000;
+    } @else {
+      @return #fff;
+    }
+  }
 
 @mixin background{
     @if $show-home-image {
