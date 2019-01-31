@@ -1,6 +1,5 @@
 @import '_config';
 @import '_menu';
-@import '_mobile';
 
 
 *{
@@ -46,7 +45,7 @@ header{
 main{
     padding:4rem;
     //width:100%;
-    min-height: calc(100vh-60px);
+    min-height: calc(100vh - 60px);
 
     .icons{
         margin-top:1rem;
@@ -70,7 +69,7 @@ main{
     }
 }
 
-.about-info{
+.about-info {
     display:grid;
     grid-gap: 30px;
     grid-template-areas:
@@ -112,3 +111,4 @@ main{
   }
 
 
+  @import '_mobile';
