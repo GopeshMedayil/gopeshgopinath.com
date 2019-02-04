@@ -1,0 +1,15 @@
+{
+  "name": "gopeshgopinath.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -o dist/css/ scss/",
+    "sass:watch": "npm run sass && npm run sass -- --watch --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
