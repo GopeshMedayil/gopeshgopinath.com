@@ -4,7 +4,7 @@ export default () => (
 
     <React.Fragment>
         <footer id="main-footer">
-            Copyright &copy; 2018
+            Copyright &copy; 2019
         </footer>
     </React.Fragment>
 
