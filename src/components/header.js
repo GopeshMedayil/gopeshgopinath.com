@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "gatsby";
 
 export default class Header extends Component {
     state = {
@@ -46,14 +47,16 @@ export default class Header extends Component {
                     </div>
                     <ul className="menu-nav">
                         <li className="nav-item">
-                            <a href="/" className="nav-link">
+                            <Link to="/" activeClassName="current" className="nav-link">Home</Link>
+                            {/* <a href="/" className="nav-link">
                                 Home
-                    </a>
+                    </a> */}
                         </li>
                         <li className="nav-item">
-                            <a href="/about" className="nav-link">
+                            <Link to="/about" activeClassName="current" className="nav-link">About Me</Link>
+                            {/* <a href="/about" className="nav-link">
                                 About Me
-                    </a>
+                    </a> */}
                         </li>
                         <li className="nav-item">
                             <a href="work.html" className="nav-link">
