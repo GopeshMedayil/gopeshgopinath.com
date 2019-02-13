@@ -46,16 +46,16 @@ export default class Header extends Component {
                     </div>
                     <ul className="menu-nav">
                         <li className="nav-item">
-                            <a href="index.html" className="nav-link">
+                            <a href="/" className="nav-link">
                                 Home
                     </a>
                         </li>
                         <li className="nav-item">
-                            <a href="about.html" className="nav-link">
+                            <a href="/about" className="nav-link">
                                 About Me
                     </a>
                         </li>
-                        <li className="nav-item current">
+                        <li className="nav-item">
                             <a href="work.html" className="nav-link">
                                 My Work
                     </a>
