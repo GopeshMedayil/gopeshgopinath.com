@@ -7,69 +7,39 @@ export default () => (
     <Fragment>
         <Layout>
             <main id="work">
-                <h1 class="lg-heading">
+                <h1 className="lg-heading">
                     My
-            <span class="text-secondary">Work</span>
+            <span className="text-secondary">Work</span>
                 </h1>
-                <h2 class="sm-heading">
+                <h2 className="sm-heading">
                     Check out some of my projects...
         </h2>
-                <div class="projects">
-                    <div class="item">
+                <div className="projects">
+                    <div className="item">
                         <a href="#!">
                             <img src={project} alt="Project" />
                         </a>
-                        <a href="#" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
+                        <a href="#" className="btn-light">
+                            <i className="fas fa-eye"></i> Project
                 </a>
-                        <a href="#" class="btn-dark">
-                            <i class="fab fa-github"></i> Github
+                        <a href="#" className="btn-dark">
+                            <i className="fab fa-github"></i> Github
                 </a>
                     </div>
-                    <div class="item">
+                    <div className="item">
                         <a href="#!">
                             <img src={project} alt="Project" />
                         </a>
-                        <a href="#" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
+                        <a href="#" className="btn-light">
+                            <i className="fas fa-eye"></i> Project
                 </a>
-                        <a href="#" class="btn-dark">
-                            <i class="fab fa-github"></i> Github
-                </a>
-                    </div>
-                    <div class="item">
-                        <a href="#!">
-                            <img src={project} alt="Project" />
-                        </a>
-                        <a href="#" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
-                </a>
-                        <a href="#" class="btn-dark">
-                            <i class="fab fa-github"></i> Github
+                        <a href="#" className="btn-dark">
+                            <i className="fab fa-github"></i> Github
                 </a>
                     </div>
-                    <div class="item">
-                        <a href="#!">
-                            <img src={project} alt="Project" />
-                        </a>
-                        <a href="#" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
-                </a>
-                        <a href="#" class="btn-dark">
-                            <i class="fab fa-github"></i> Github
-                </a>
-                    </div>
-                    <div class="item">
-                        <a href="#!">
-                            <img src={project} alt="Project" />
-                        </a>
-                        <a href="#" class="btn-light">
-                            <i class="fas fa-eye"></i> Project
-                </a>
-                        <a class="btn-dark">
-                            <i class="fab fa-github"></i> Github
-                </a>
-                    </div>
+
+
+
                 </div>
             </main>
         </Layout>
