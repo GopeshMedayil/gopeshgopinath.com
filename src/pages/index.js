@@ -1,11 +1,16 @@
 import React from "react";
-import '../../static/dist/css/main.css'
-import Layout from '../components/layout.js'
-var FA = require('react-fontawesome')
+import { Helmet } from "react-helmet";
+import '../../static/dist/css/main.css';
+import Layout from '../components/layout.js';
+var FA = require('react-fontawesome');
 
 export default () => (
     <div>
         <Layout>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>My Title</title>
+            </Helmet>
             <main id="home">
                 <h1 className="lg-heading">
                     Gopesh <span className="text-secondary">Gopinath</span>

@@ -13,9 +13,11 @@
   },
   "dependencies": {
     "gatsby": "^2.0.111",
+    "gatsby-plugin-react-helmet": "^3.0.6",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-fontawesome": "^1.6.1"
+    "react-fontawesome": "^1.6.1",
+    "react-helmet": "^5.2.0"
   },
   "repository": {
     "type": "git",
