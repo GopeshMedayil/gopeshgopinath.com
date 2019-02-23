@@ -14,6 +14,8 @@
   "dependencies": {
     "gatsby": "^2.0.111",
     "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sass": "^2.0.0-rc.2",
+    "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-fontawesome": "^1.6.1",
@@ -25,5 +27,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "url-loader": "^1.1.2"
   }
 }

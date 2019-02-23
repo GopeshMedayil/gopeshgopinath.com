@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from 'react-helmet';
 import { Link } from "gatsby";
 
 export default class Header extends Component {
@@ -35,6 +36,10 @@ export default class Header extends Component {
     render() {
         return (
             <header>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>Gopesh Gopinath | Front end developer</title>
+                </Helmet>
                 <div className="menu-btn" onClick={this.toggleMenu}>
                     <div className="btn-line"></div>
                     <div className="btn-line"></div>

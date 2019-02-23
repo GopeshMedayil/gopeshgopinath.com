@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 import Layout from '../components/layout.js';
 import portrait from '../../static/dist/img/portrait.jpg'
 
@@ -6,7 +7,12 @@ import portrait from '../../static/dist/img/portrait.jpg'
 export default () => (
 
     <Fragment>
+
         <Layout>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Gopesh Gopinath | Front end developer</title>
+            </Helmet>
             <main id="about">
                 <h1 className="lg-heading">
                     About

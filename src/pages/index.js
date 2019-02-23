@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import '../../static/dist/css/main.css';
+import '../styles/main.scss';
 import Layout from '../components/layout.js';
 var FA = require('react-fontawesome');
 
@@ -9,7 +9,7 @@ export default () => (
         <Layout>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>My Title</title>
+                <title>Gopesh Gopinath | Front end developer</title>
             </Helmet>
             <main id="home">
                 <h1 className="lg-heading">
