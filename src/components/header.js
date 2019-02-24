@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Helmet } from 'react-helmet';
 import { Link } from "gatsby";
+import portrait from '../img/portrait.jpg';
+
 
 export default class Header extends Component {
     state = {
@@ -48,7 +50,9 @@ export default class Header extends Component {
 
                 <nav className="menu">
                     <div className="menu-branding">
-                        <div className="portrait"></div>
+                        <div>
+                            <img src={portrait} alt="Gopesh Gopinath" className="bio-image portrait" />
+                        </div>
                     </div>
                     <ul className="menu-nav">
                         <li className="nav-item">
