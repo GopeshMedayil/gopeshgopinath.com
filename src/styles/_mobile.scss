@@ -53,14 +53,8 @@
     }
 
     .about-info{
-      grid-template-areas: 
-        'bioimage' 
-        'bio' 
-        'bio'
-        'job1'
-        'job2'
-        'job3';
-    grid-template-columns:1fr;
+      flex-direction: column;
+      align-items: center;
       
     }
     .projects {
