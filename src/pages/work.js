@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Layout from '../components/layout.js';
-import project from '../../static/dist/img/projects/project1.jpg'
+import project from '../img/projects/project1.jpg';
 export default () => (
 
     <Fragment>

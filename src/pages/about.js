@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import Layout from '../components/layout.js';
-import portrait from '../../static/dist/img/portrait.jpg'
+import portrait from '../img/portrait.jpg';
 
 
 export default () => (
@@ -26,36 +26,12 @@ export default () => (
 
                     <div className="bio">
                         <h3 className="text-secondary">BIO</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt magni nam nisi quae vitae? Quod
-                            molestiae ipsa
-                            autem natus eum vel ducimus nulla harum voluptatem eligendi! Unde, reiciendis? Praesentium,
-                    laborum.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
                     </div>
 
-                    <div className="job job-1">
-                        <h3>TCS</h3>
-                        <h6>Full Stack Developer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
 
-                    <div className="job job-2">
-                        <h3>UST Global</h3>
-                        <h6>Senior Software Engineer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
-
-                    <div className="job job-3">
-                        <h3>Experion Technologies</h3>
-                        <h6>Software Engineer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
                 </div>
+                <div className="exp-title"><h2>Experience</h2></div>
             </main>
         </Layout>
     </Fragment>
