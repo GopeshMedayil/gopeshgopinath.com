@@ -57,6 +57,11 @@
       align-items: center;
       
     }
+    .grid-container{
+      grid-template-columns: none;
+      grid-column: auto;
+      grid-row-gap: 20px;
+    }
     .projects {
       grid-template-columns: repeat(2, 1fr);
     }

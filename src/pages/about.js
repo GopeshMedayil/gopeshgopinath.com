@@ -31,7 +31,80 @@ export default () => (
 
 
                 </div>
-                <div className="exp-title"><h2>Experience</h2></div>
+                <div className="grid-title text-secondary">
+                    <h2 className="sm-heading">Experience</h2>
+                </div>
+                <div className="job grid-container">
+                    <div className="grid-item">
+                        <h3>TCS</h3>
+                        <h6>Full Stack Developer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
+                            porro dolores
+                    expedita dolor necessitatibus deserunt nemo.</p>
+                    </div>
+                    <div className="grid-item">
+                        <h3>TCS</h3>
+                        <h6>Full Stack Developer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
+                            porro dolores
+                    expedita dolor necessitatibus deserunt nemo.</p>
+                    </div>
+                    <div className="grid-item">
+                        <h3>TCS</h3>
+                        <h6>Full Stack Developer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
+                            porro dolores
+                    expedita dolor necessitatibus deserunt nemo.</p>
+                    </div>
+                </div>
+                <div className="grid-title text-secondary">
+                    <h2 className="sm-heading">Education</h2>
+                </div>
+                <div className="experience grid-container">
+                    <div className="grid-item">
+                        <h3>TCS</h3>
+                        <h6>Full Stack Developer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
+                            porro dolores
+                    expedita dolor necessitatibus deserunt nemo.</p>
+                    </div>
+                    <div className="grid-item">
+                        <h3>TCS</h3>
+                        <h6>Full Stack Developer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
+                            porro dolores
+                    expedita dolor necessitatibus deserunt nemo.</p>
+                    </div>
+                    <div className="grid-item">
+                        <h3>TCS</h3>
+                        <h6>Full Stack Developer</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
+                            porro dolores
+                    expedita dolor necessitatibus deserunt nemo.</p>
+                    </div>
+                </div>
+                <div className="grid-title text-secondary">
+                    <h2 className="sm-heading">Skills</h2>
+                </div>
+                <div className="skills grid-container">
+                    <div className="grid-item">
+                        <h3>Html5</h3>
+
+                    </div>
+                    <div className="grid-item">
+                        <h3>Angular</h3>
+
+                    </div>
+                    <div className="grid-item">
+                        <h3>Reactjs</h3>
+                    </div>
+                    <div className="grid-item">
+                        <h3>Node.js</h3>
+                    </div>
+                    <div className="grid-item">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
             </main>
         </Layout>
     </Fragment>
