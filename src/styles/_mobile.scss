@@ -55,6 +55,9 @@
     .about-info{
       flex-direction: column;
       align-items: center;
+      .bio{
+        width:100%;
+      }
       
     }
     .grid-container{
