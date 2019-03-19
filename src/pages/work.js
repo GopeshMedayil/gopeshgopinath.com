@@ -19,7 +19,7 @@ export default () => (
                             <img src={project} alt="Project" />
                         </a>
                         <a href="#" className="btn-light">
-                            <i className="fas fa-eye"></i> Project
+                            <i className="fas fa-eye"></i> MongoDuo
                 </a>
                         <a href="#" className="btn-dark">
                             <i className="fab fa-github"></i> Github
@@ -30,7 +30,7 @@ export default () => (
                             <img src={project} alt="Project" />
                         </a>
                         <a href="#" className="btn-light">
-                            <i className="fas fa-eye"></i> Project
+                            <i className="fas fa-eye"></i> HandyMan
                 </a>
                         <a href="#" className="btn-dark">
                             <i className="fab fa-github"></i> Github

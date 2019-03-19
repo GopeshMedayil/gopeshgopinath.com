@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
+import { graphql } from "gatsby";
 import { Helmet } from 'react-helmet';
 import Layout from '../components/layout.js';
 import portrait from '../img/portrait.jpg';
 
 
-export default () => (
+export default (props) => (
 
     <Fragment>
 
@@ -19,8 +20,8 @@ export default () => (
             <span className="text-secondary">Me</span>
                 </h1>
                 <h2 className="sm-heading">
-                    Let me tell you a few things...
-        </h2>
+                    Let me tell you a few things...{props.data.dataJson.name}
+                </h2>
                 <div className="about-info">
                     <img src={portrait} alt="Gopesh Gopinath" className="bio-image" />
 
@@ -88,7 +89,7 @@ export default () => (
                 </div>
                 <div className="skills grid-container">
                     <div className="grid-item">
-                        <h3>Html5</h3>
+                        <h3>HTML5</h3>
 
                     </div>
                     <div className="grid-item">
@@ -109,4 +110,14 @@ export default () => (
         </Layout>
     </Fragment>
 
+
 );
+
+export const IndexQuery = graphql`
+  query IndexQuery {
+    dataJson {
+        name
+      
+    }
+  }
+`;
