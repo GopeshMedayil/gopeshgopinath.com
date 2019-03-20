@@ -1,3 +1,55 @@
 {
-    "name": "Test"
+    "name": "Test",
+    "experiences": [
+        {
+            "company": "TCS",
+            "years": "December 2015 - Present",
+            "designation": "Full Stack Developer",
+            "desc": "Working with latest technologies like Node.js,Angular"
+        },
+        {
+            "company": "UST Global",
+            "years": "September 2014 - December 2015",
+            "designation": "Senior Software Engineer",
+            "desc": "Working with latest technologies like Node.js,Angular"
+        },
+        {
+            "company": "Experion GLobal",
+            "years": "August 2011 - September 2014",
+            "designation": "Software Engineer",
+            "desc": "Working with latest technologies like Node.js,Angular"
+        }
+    ],
+    "education": [
+        {
+            "degree": "MCA",
+            "institution": "Saintgits college of engineering"
+        },
+        {
+            "degree": "Bsc Physics",
+            "institution": "D B Pampa college Parumala"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HTML5",
+            "image": "../img/skills/react.svg"
+        },
+        {
+            "name": "HTML5",
+            "image": "../img/skills/react.svg"
+        },
+        {
+            "name": "HTML5",
+            "image": "../img/skills/react.svg"
+        },
+        {
+            "name": "HTML5",
+            "image": "../img/skills/react.svg"
+        },
+        {
+            "name": "HTML5",
+            "image": "../img/skills/react.svg"
+        }
+    ]
 }

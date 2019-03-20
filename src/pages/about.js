@@ -36,75 +36,40 @@ export default (props) => (
                     <h2 className="sm-heading">Experience</h2>
                 </div>
                 <div className="job grid-container">
-                    <div className="grid-item">
-                        <h3>TCS</h3>
-                        <h6>Full Stack Developer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
-                    <div className="grid-item">
-                        <h3>TCS</h3>
-                        <h6>Full Stack Developer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
-                    <div className="grid-item">
-                        <h3>TCS</h3>
-                        <h6>Full Stack Developer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
+                    {props.data.dataJson.experiences.map((item, key) =>
+                        <div className="grid-item">
+                            <h3>{item.company}</h3>
+                            <h6>{item.designation}</h6>
+                            <p>{item.desc}</p>
+                        </div>
+                    )}
+
+
                 </div>
                 <div className="grid-title text-secondary">
                     <h2 className="sm-heading">Education</h2>
                 </div>
                 <div className="experience grid-container">
-                    <div className="grid-item">
-                        <h3>TCS</h3>
-                        <h6>Full Stack Developer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
-                    <div className="grid-item">
-                        <h3>TCS</h3>
-                        <h6>Full Stack Developer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
-                    <div className="grid-item">
-                        <h3>TCS</h3>
-                        <h6>Full Stack Developer</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
-                            porro dolores
-                    expedita dolor necessitatibus deserunt nemo.</p>
-                    </div>
+                    {props.data.dataJson.education.map((item, key) =>
+                        <div className="grid-item">
+                            <h3>{item.degree}</h3>
+                            <h6>{item.institution}</h6>
+                            {/* <p>{item.desc}</p> */}
+                        </div>
+                    )}
+
                 </div>
                 <div className="grid-title text-secondary">
                     <h2 className="sm-heading">Skills</h2>
                 </div>
                 <div className="skills grid-container">
-                    <div className="grid-item">
-                        <h3>HTML5</h3>
+                    {props.data.dataJson.skills.map((item, key) =>
+                        <div className="grid-item">
+                            <h3>{item.name}</h3>
 
-                    </div>
-                    <div className="grid-item">
-                        <h3>Angular</h3>
+                        </div>
+                    )}
 
-                    </div>
-                    <div className="grid-item">
-                        <h3>Reactjs</h3>
-                    </div>
-                    <div className="grid-item">
-                        <h3>Node.js</h3>
-                    </div>
-                    <div className="grid-item">
-                        <h3>CSS</h3>
-                    </div>
                 </div>
             </main>
         </Layout>
@@ -116,8 +81,21 @@ export default (props) => (
 export const IndexQuery = graphql`
   query IndexQuery {
     dataJson {
-        name
-      
+        name,
+        experiences{
+            company,
+            years,
+            designation,
+            desc
+        },
+        education{
+            degree,
+            institution
+        },
+        skills{
+            name
+        }
+
     }
   }
 `;
