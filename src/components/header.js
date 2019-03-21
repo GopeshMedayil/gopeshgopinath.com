@@ -72,9 +72,7 @@ export default class Header extends Component {
 
                         </li>
                         <li className="nav-item">
-                            <a href="contact.html" className="nav-link">
-                                How To Reach Me
-                    </a>
+                            <Link to="/contact" activeClassName="current" className="nav-link">How To Reach Me</Link>
                         </li>
                     </ul>
                 </nav>

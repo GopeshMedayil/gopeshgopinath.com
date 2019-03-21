@@ -1,5 +1,6 @@
 @import '_config';
 @import '_menu';
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
 
 *{
     box-sizing: border-box;
@@ -10,7 +11,7 @@ body{
     background-color: $primary-color;
     width:100%;
     margin:0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     color:set-text-color($primary-color);
     font-size:14px;
@@ -19,7 +20,7 @@ h1,h2,h3{
     margin:0;
     font-weight:400;
     &.lg-heading{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     &.sm-heading{
         margin-bottom:2rem;
@@ -64,6 +65,7 @@ main{
         text-align: center;
         overflow: hidden;
         h1{
+            font-size:5rem;
             margin-top: 10vh;
         }
     }
@@ -176,6 +178,77 @@ main{
     color: set-text-color($primary-color);
     height: 60px;
   }
+
+  #contact{
+      h2{
+          text-align: center;
+      }
+  }
+
+  form {
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+   
+   input, textarea {
+      border:0; outline:0;
+      padding: 1em;
+     // @include border-radius(8px);
+      display: block;
+      width: 100%;
+      margin-top: 1em;
+      font-family: 'Merriweather', sans-serif;
+      //@include box-shadow(0 1px 1px rgba(black, 0.1));
+      resize: none;
+     
+     &:focus {
+        //@include box-shadow(0 0px 2px rgba($red, 1)!important);
+     }
+   }
+
+   #input-submit {
+      color: $primary-color; 
+      font-size:1rem;
+      background: $secondary-color;
+      cursor: pointer;
+     
+     &:hover {
+       // @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6)); 
+     }
+   }
+   
+   textarea {
+       height: 126px;
+   }
+ }
+ 
+ 
+ .half {
+   float: left;
+   width: 100%;
+   margin-bottom: 1em;
+ }
+ 
+ .right { width: 100%; }
+ 
+ .left {
+      margin-right: 2%; 
+ }
+ 
+ 
+
+ 
+ 
+ /* Clearfix */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
 
 
   @import '_mobile';
