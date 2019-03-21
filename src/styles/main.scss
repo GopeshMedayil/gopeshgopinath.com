@@ -1,6 +1,7 @@
 @import '_config';
 @import '_menu';
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
+//@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
 *{
     box-sizing: border-box;
@@ -11,6 +12,7 @@ body{
     background-color: $primary-color;
     width:100%;
     margin:0;
+    font-family: 'Kaushan Script', cursive;
     //font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     color:set-text-color($primary-color);

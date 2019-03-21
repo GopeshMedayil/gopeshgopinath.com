@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Layout from '../components/layout.js';
+import Typed from 'react-typed';
 import project from '../img/projects/project1.jpg';
 export default () => (
 
@@ -11,8 +12,14 @@ export default () => (
             <span className="text-secondary">Work</span>
                 </h1>
                 <h2 className="sm-heading">
-                    Check out some of my projects...
-        </h2>
+                    <Typed
+                        strings={['Check out some of my projects...']}
+                        typeSpeed={40}
+                        backSpeed={50}
+                        loop
+                    />
+
+                </h2>
                 <div className="projects">
                     <div className="item">
                         <a href="#!">

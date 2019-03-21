@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { graphql } from "gatsby";
 import { Helmet } from 'react-helmet';
+import Typed from 'react-typed';
 import Layout from '../components/layout.js';
 import portrait from '../img/portrait.jpg';
 
@@ -17,10 +18,16 @@ export default (props) => (
             <main id="about">
                 <h1 className="lg-heading">
                     About
-            <span className="text-secondary">Me</span>
+            <span className="text-secondary"> Me</span>
                 </h1>
                 <h2 className="sm-heading">
-                    Let me tell you a few things...{props.data.dataJson.name}
+                    <Typed
+                        strings={[' Let me tell you a few things...']}
+                        typeSpeed={40}
+                        backSpeed={50}
+                        loop
+                    />
+
                 </h2>
                 <div className="about-info">
                     <img src={portrait} alt="Gopesh Gopinath" className="bio-image" />
@@ -37,7 +44,7 @@ export default (props) => (
                 </div>
                 <div className="job grid-container">
                     {props.data.dataJson.experiences.map((item, key) =>
-                        <div className="grid-item">
+                        <div key={key} className="grid-item">
                             <h3>{item.company}</h3>
                             <h6>{item.designation}</h6>
                             <p>{item.desc}</p>
@@ -51,7 +58,7 @@ export default (props) => (
                 </div>
                 <div className="experience grid-container">
                     {props.data.dataJson.education.map((item, key) =>
-                        <div className="grid-item">
+                        <div key={key} className="grid-item">
                             <h3>{item.degree}</h3>
                             <h6>{item.institution}</h6>
                             {/* <p>{item.desc}</p> */}
@@ -64,7 +71,7 @@ export default (props) => (
                 </div>
                 <div className="skills grid-container">
                     {props.data.dataJson.skills.map((item, key) =>
-                        <div className="grid-item">
+                        <div key={key} className="grid-item">
                             <h3>{item.name}</h3>
 
                         </div>
