@@ -3,19 +3,19 @@
     "experiences": [
         {
             "company": "TCS",
-            "years": "December 2015 - Present",
+            "years": "2015 - Present",
             "designation": "Full Stack Developer",
             "desc": "Working with latest technologies like Node.js,Angular"
         },
         {
             "company": "UST Global",
-            "years": "September 2014 - December 2015",
+            "years": "2014 - 2015",
             "designation": "Senior Software Engineer",
             "desc": "Working with latest technologies like Node.js,Angular"
         },
         {
             "company": "Experion GLobal",
-            "years": "August 2011 - September 2014",
+            "years": "2011 - 2014",
             "designation": "Software Engineer",
             "desc": "Working with latest technologies like Node.js,Angular"
         }

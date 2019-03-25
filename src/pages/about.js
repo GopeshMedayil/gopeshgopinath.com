@@ -45,8 +45,8 @@ export default (props) => (
                 <div className="job grid-container">
                     {props.data.dataJson.experiences.map((item, key) =>
                         <div key={key} className="grid-item">
-                            <h3>{item.company}</h3>
-                            <h6>{item.designation}</h6>
+                            <h3><span className="text-secondary">{item.company} </span>({item.years})</h3>
+                            <h4>{item.designation}</h4>
                             <p>{item.desc}</p>
                         </div>
                     )}
