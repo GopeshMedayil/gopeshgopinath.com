@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import '../styles/main.scss';
 import Layout from '../components/layout.js';
+import Letter from '../components/letter';
 var FA = require('react-fontawesome');
 
 export default () => (
@@ -12,8 +13,9 @@ export default () => (
                 <title>Gopesh Gopinath | Front end developer</title>
             </Helmet>
             <main id="home">
-                <h1 className="lg-heading">
-                    Gopesh <span className="text-secondary">Gopinath</span>
+                <h1 className="lg-heading letter">
+                    <Letter firstName="Gopesh" lastName="Gopinath"></Letter>
+                    {/* Gopesh <span className="text-secondary">Gopinath</span> */}
                 </h1>
                 <h2 className="sm-heading">
                     Front end developer &hearts; Web !!
