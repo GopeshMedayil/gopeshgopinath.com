@@ -18,7 +18,7 @@ export default class Contact extends Component {
                     <main id="contact">
 
                         <h2 className="lg-heading">Contact <span className="text-secondary">Me</span></h2>
-                        <form className="cf" name="contact" method="POST" data-netlify="true">
+                        <form className="cf" name="contact" action="/" method="POST" data-netlify="true">
                             <div className="half left cf">
                                 <input type="text" id="input-name" name="firstname" placeholder="Name" required />
                                 <input type="email" id="input-email" name="email" placeholder="Email address" required />
