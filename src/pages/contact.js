@@ -20,7 +20,7 @@ export default class Contact extends Component {
                         <h2 className="lg-heading">Contact <span className="text-secondary">Me</span></h2>
                         <form className="cf" name="contact" action="/" netlify-honeypot="bot-field" method="POST" data-netlify="true">
                             <div className="half left cf">
-                                <p class="hidden">
+                                <p className="hidden" style={{ visibility: "hidden" }}>
                                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                                 </p>
                                 <input type="text" id="input-name" name="firstname" placeholder="Name" required />
