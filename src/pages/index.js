@@ -3,15 +3,13 @@ import { Helmet } from "react-helmet";
 import '../styles/main.scss';
 import Layout from '../components/layout.js';
 import Letter from '../components/letter';
+import SEO from '../components/seo';
 var FA = require('react-fontawesome');
 
 export default () => (
     <div>
         <Layout>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>Gopesh Gopinath | Front end developer</title>
-            </Helmet>
+            <SEO />
             <main id="home">
                 <h1 className="lg-heading letter">
                     <Letter firstName="Gopesh" lastName="Gopinath"></Letter>

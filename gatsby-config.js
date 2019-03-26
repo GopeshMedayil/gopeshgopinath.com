@@ -1,6 +1,13 @@
 module.exports = {
     siteMetadata: {
-        title: "Gopesh Gopinath"
+        title: "Gopesh Gopinath",
+        titleTemplate: 'Gopesh Gopinath',
+        description:
+            'Front end developer',
+        url: 'https://gopeshgopinath.com', // no trailing slash!
+        image: '/img/portrait.jpg',
+        owner: 'Gopesh Gopinath',
+        twitterUsername: '@GopeshMedayil',
     },
     plugins: [
 

@@ -18,14 +18,14 @@ export default class Contact extends Component {
                     <main id="contact">
 
                         <h2 className="lg-heading">Contact <span className="text-secondary">Me</span></h2>
-                        <form className="cf">
+                        <form className="cf" name="contact" method="POST" data-netlify="true">
                             <div className="half left cf">
-                                <input type="text" id="input-name" placeholder="Name" />
-                                <input type="email" id="input-email" placeholder="Email address" />
-                                <input type="text" id="input-subject" placeholder="Subject" />
+                                <input type="text" id="input-name" name="firstname" placeholder="Name" required />
+                                <input type="email" id="input-email" name="email" placeholder="Email address" required />
+                                <input type="text" id="input-subject" name="subject" placeholder="Subject" required />
                             </div>
                             <div className="half right cf">
-                                <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                                <textarea name="message" type="text" id="input-message" placeholder="Message" required></textarea>
                             </div>
                             <input type="submit" value="Submit" id="input-submit" />
                         </form>
