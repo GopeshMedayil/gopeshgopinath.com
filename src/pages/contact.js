@@ -18,7 +18,7 @@ export default class Contact extends Component {
                     <main id="contact">
 
                         <h2 className="lg-heading">Contact <span className="text-secondary">Me</span></h2>
-                        <form className="cf" name="contact" action="/no-cache=1" netlify-honeypot="bot-field" method="POST" data-netlify="true">
+                        <form className="cf" name="contact" action="/success?no-cache=1" netlify-honeypot="bot-field" method="POST" data-netlify="true">
                             <input type="hidden" name="form-name" value="contact" />
                             <div className="half left cf">
                                 <p className="hidden" style={{ display: "none" }}>
