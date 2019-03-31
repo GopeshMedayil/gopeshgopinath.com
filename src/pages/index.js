@@ -16,7 +16,8 @@ export default () => (
                     {/* Gopesh <span className="text-secondary">Gopinath</span> */}
                 </h1>
                 <h2 className="sm-heading">
-                    Front end developer &hearts; Web !!
+                    {/* Front end developer &hearts; Javascript !! */}
+                    Full Stack Javascript Developer
         </h2>
                 <div className="icons">
                     <a href="https://twitter.com/GopeshMedayil">
