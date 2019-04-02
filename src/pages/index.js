@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import '../styles/main.scss';
 import Layout from '../components/layout.js';
 import Letter from '../components/letter';

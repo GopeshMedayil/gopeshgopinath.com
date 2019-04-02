@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Helmet } from 'react-helmet';
 import { Link } from "gatsby";
 import portrait from '../img/portrait.jpg';
 import SEO from '../components/seo';
