@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import Typed from 'react-typed';
 import Layout from '../components/layout.js';
 import portrait from '../img/portrait.jpg';
+import { withPrefix } from 'gatsby';
 
 
 export default (props) => (
@@ -75,8 +76,9 @@ export default (props) => (
                 <div className="skills grid-container">
                     {props.data.dataJson.skills.map((item, key) =>
                         <div key={key} className="grid-item">
-                            <h3>{item.name}</h3>
+                            <img className="skill-image" src={withPrefix(`/images/${item.image}`)} style={{ width: '20px' }} alt="Logo" />
 
+                            <h3>{item.name}</h3>
                         </div>
                     )}
 
@@ -103,7 +105,8 @@ export const IndexQuery = graphql`
             institution
         },
         skills{
-            name
+            name,
+            image
         }
 
     }

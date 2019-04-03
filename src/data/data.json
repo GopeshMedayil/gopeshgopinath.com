@@ -33,23 +33,27 @@
     "skills": [
         {
             "name": "HTML5",
-            "image": "../img/skills/react.svg"
+            "image": "html.svg"
         },
         {
             "name": "Javascript",
-            "image": "../img/skills/react.svg"
+            "image": "javascript.svg"
         },
         {
             "name": "Angular",
-            "image": "../img/skills/react.svg"
+            "image": "angular.svg"
         },
         {
             "name": "React",
-            "image": "../img/skills/react.svg"
+            "image": "react.svg"
         },
         {
             "name": "Node.js",
-            "image": "../img/skills/react.svg"
+            "image": "nodejs.svg"
+        },
+        {
+            "name": "Gatsby",
+            "image": "gatsbyjs.svg"
         }
     ]
 }
