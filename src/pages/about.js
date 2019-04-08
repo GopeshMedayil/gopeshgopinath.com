@@ -76,7 +76,7 @@ export default (props) => (
                 <div className="skills grid-container">
                     {props.data.dataJson.skills.map((item, key) =>
                         <div key={key} className="grid-item">
-                            <img className="skill-image" src={withPrefix(`/images/${item.image}`)} style={{ width: '20px' }} alt="Logo" />
+                            <img className="skill-image" src={withPrefix(`/images/${item.image}`)} alt={item.name} />
 
                             <h3>{item.name}</h3>
                         </div>

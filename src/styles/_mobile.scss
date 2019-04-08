@@ -71,6 +71,18 @@
     }
     .projects {
       grid-template-columns: repeat(2, 1fr);
+      .view{
+        p{
+          padding:2px;
+        }
+        h2{
+          padding: 3px;
+          margin: 0;
+        }
+        .mask{
+        width:100%;
+        }
+      }
     }
     
   }
