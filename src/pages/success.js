@@ -4,8 +4,11 @@ export default () => (
 
     <Fragment>
         <Layout>
-            <main>
-                <h2>Form submission sucess</h2>
+            <main className="success">
+                <div className="successContainer">
+                    <h2>Thank you for contacting me <span role="img" aria-label="Happy">&#128522;</span></h2>
+                </div>
+
             </main>
         </Layout>
     </Fragment>
