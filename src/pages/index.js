@@ -18,7 +18,7 @@ export default () => (
                     Full Stack Javascript Developer
         </h2>
                 <div className="icons">
-                    <a href="https://twitter.com/GopeshMedayil">
+                    <a href="https://twitter.com/GopeshMedayil" className="wooble-bottom">
                         {/* <i className="fab fa-twitter fa-2x"></i> */}
                         <FaTwitter size="2em" />
                     </a>

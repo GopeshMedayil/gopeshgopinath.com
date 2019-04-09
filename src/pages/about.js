@@ -64,7 +64,7 @@ export default (props) => (
                     {props.data.dataJson.education.map((item, key) =>
                         <div key={key} className="grid-item">
                             <h3>{item.degree}</h3>
-                            <h6>{item.institution}</h6>
+                            <h5>{item.institution}</h5>
                             {/* <p>{item.desc}</p> */}
                         </div>
                     )}

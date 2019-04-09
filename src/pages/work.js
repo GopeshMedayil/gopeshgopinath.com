@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import Layout from '../components/layout.js';
 import Typed from 'react-typed';
 import project from '../img/projects/project1.jpg';
+import mywebsite from '../img/projects/myweb.jpg';
+import project2 from '../img/projects/project1.jpg';
 export default () => (
 
     <Fragment>
@@ -32,7 +34,7 @@ export default () => (
                     </div>
                     <div className="view view-tenth item">
                         <div className="project-title">gopeshgopinath.com</div>
-                        <img src={project} alt="gopeshgopinath.com" />
+                        <img src={mywebsite} alt="gopeshgopinath.com" />
                         <div className="mask">
                             <h2>gopeshgopinath.com</h2>
                             <p>My personal website developed using Gatsbyjs</p>
