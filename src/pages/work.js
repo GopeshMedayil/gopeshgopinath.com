@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import Layout from '../components/layout.js';
 import Typed from 'react-typed';
 import project from '../img/projects/project1.jpg';
-import mywebsite from '../img/projects/myweb.jpg';
+import mywebsite from '../img/projects/project6.jpg';
 export default () => (
 
     <Fragment>
