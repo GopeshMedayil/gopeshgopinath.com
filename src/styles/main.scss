@@ -360,27 +360,7 @@ main{
     padding: 50px;
    }
  }
- .wooble-bottom{
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-  -webkit-font-smoothing: antialiased;
-  &:hover,&:active{
-    -webkit-animation-name: hvr-wobble-bottom;
-    animation-name: hvr-wobble-bottom;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-  }
- }
  
- 
-
  
  
  /* Clearfix */

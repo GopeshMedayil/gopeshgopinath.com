@@ -6,7 +6,7 @@ module.exports = {
         description:
             'Front end developer',
         url: 'https://gopeshgopinath.com', // no trailing slash!
-        image: '/img/portrait.jpg',
+        image: '/web.jpg',
         owner: 'Gopesh Gopinath',
         twitterUsername: '@GopeshMedayil',
     },
