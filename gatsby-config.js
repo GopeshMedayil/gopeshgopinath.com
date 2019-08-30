@@ -11,6 +11,12 @@ module.exports = {
         twitterUsername: '@GopeshMedayil',
     },
     plugins: [
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "UA-56858409-2"
+            }
+        },
 
         {
             resolve: "gatsby-plugin-react-helmet",
